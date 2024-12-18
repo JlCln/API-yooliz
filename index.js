@@ -132,7 +132,7 @@ const vehicles = [
             "horsepower": 351
         },
         "license_plate": "KL-890-MN",
-        "car_picture": "https://example.com/images/ford-mustang-mach-e.jpg"
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/ffd3df74-c4e4-45a0-8358-3af559382fa3/50c7ba84-a416-4dcd-be3e-9679bce87f02.png"
     },
     {
         "id": 10,
@@ -146,7 +146,7 @@ const vehicles = [
             "horsepower": 100
         },
         "license_plate": "NO-123-PQ",
-        "car_picture": "https://example.com/images/peugeot-208.jpg"
+        "car_picture": "https://www.europcar-atlantique.fr/upload/images/Categories/Citadine/Eco5Portes.jpg?width=750"
     },
     {
         "id": 11,
@@ -160,7 +160,7 @@ const vehicles = [
             "horsepower": 147
         },
         "license_plate": "RS-456-TU",
-        "car_picture": "https://example.com/images/volkswagen-golf.jpg"
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/5e20d4cf-e46d-4c12-8a62-5f4ee89aefa8/9489b189-2ef2-4e1f-a34f-7c23978113bd.png"
     },
     {
         "id": 12,
@@ -174,7 +174,7 @@ const vehicles = [
             "horsepower": 136
         },
         "license_plate": "VW-789-XY",
-        "car_picture": "https://example.com/images/volkswagen-e-golf.jpg"
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/c178ee74-6148-40a7-ac50-e4e926f86413/bd23fbdc-e518-4a52-acec-f62de79d8c50.png"
     },
     {
         "id": 13,
@@ -188,7 +188,7 @@ const vehicles = [
             "horsepower": 140
         },
         "license_plate": "ZA-345-BC",
-        "car_picture": "https://example.com/images/renault-megane.jpg"
+        "car_picture": "https://leseco.ma/wp-content/uploads/2021/01/Renault-Megane-1.jpg"
     },
     {
         "id": 14,
@@ -202,7 +202,7 @@ const vehicles = [
             "horsepower": 218
         },
         "license_plate": "DE-678-FG",
-        "car_picture": "https://example.com/images/renault-megane-e-tech.jpg"
+        "car_picture": "https://images.ctfassets.net/g9q6qxi3m2zj/3mO0Ob2Dzp24k6o0cKuqrO/af880978cb75633ff62eb4c2ea62cec0/MeganeEtech_1.png"
     },
     {
         "id": 15,
@@ -216,7 +216,7 @@ const vehicles = [
             "horsepower": 225
         },
         "license_plate": "HI-901-JK",
-        "car_picture": "https://example.com/images/hyundai-ioniq-5.jpg"
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/f2927772-93e5-4376-acd1-a4d23128d3f6/8300e077-edd2-480e-a569-a775ec2f847e.png"
     },
     {
         "id": 16,
@@ -230,7 +230,7 @@ const vehicles = [
             "horsepower": 141
         },
         "license_plate": "LM-234-NO",
-        "car_picture": "https://example.com/images/hyundai-ioniq.jpg"
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/9b813312-1121-4080-957e-e7115e0649b2/9bcd1202-4cb3-4274-8bcf-362814d534dc.png"
     },
     {
         "id": 17,
@@ -244,7 +244,7 @@ const vehicles = [
             "horsepower": 170
         },
         "license_plate": "PQ-567-RS",
-        "car_picture": "https://example.com/images/bmw-i3.jpg"
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/bc5d4734-5bf0-4fda-acf3-265023f70310/bcea62da-664e-47ba-8b0a-fe618ea07a47.png"
     },
     {
         "id": 18,
@@ -258,7 +258,7 @@ const vehicles = [
             "horsepower": 184
         },
         "license_plate": "TU-890-VW",
-        "car_picture": "https://example.com/images/bmw-3-series.jpg"
+        "car_picture": "https://carimages.d2cmedia.ca/newcars/cb6762567152300/BMW/3%20Series/2024/MjkxNDg1Xk1lZGlhIEdhbGxlcnk/3RxKSeC2FJSwjlgTgX3gcCUy4h_BulsPC7pjodvLqgqsHM4oRs6QCtskxpw2Z88LOiJ02IEoSVitJ7fdeJpoOsXGMAWNZGqvmoDDx01gUKUAi5i2OpGuzzxfYOOTIk5LeUISeZkj_dVESKceqdgudZ4jSqdmvKcvtRcNEU2F62dE5JbYZlMXDc8ff4zyCiWd/cc_2024BMC220019_01_1280_668.png"
     },
     {
         "id": 19,
@@ -272,7 +272,7 @@ const vehicles = [
             "horsepower": 201
         },
         "license_plate": "XY-123-ZA",
-        "car_picture": "https://example.com/images/kia-soul-ev.jpg"
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/9703ebaa-6b81-4178-9285-bf02a1ecc5c6/53328f01-301f-4e21-a3d8-8d8b9d786286.png"
     },
     {
         "id": 20,
