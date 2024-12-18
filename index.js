@@ -14,7 +14,7 @@ const vehicles = [
         "model": "ID.3",
         "price": 43000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 15.5,
             "autonomy_km": 420,
             "horsepower": 204
@@ -28,7 +28,7 @@ const vehicles = [
         "model": "e-208",
         "price": 32000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 16.6,
             "autonomy_km": 340,
             "horsepower": 136
@@ -42,9 +42,9 @@ const vehicles = [
         "model": "Clio",
         "price": 20000,
         "engine": {
-            "power_type": "gas",
+            "power_type": "diesel",
             "consumption": 5.4,
-            "autonomy_km": 820,
+            "autonomy_km": null,
             "horsepower": 90
         },
         "license_plate": "IJ-789-KL",
@@ -56,7 +56,7 @@ const vehicles = [
         "model": "Kona Electric",
         "price": 39000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 14.7,
             "autonomy_km": 484,
             "horsepower": 204
@@ -70,9 +70,9 @@ const vehicles = [
         "model": "X1",
         "price": 45000,
         "engine": {
-            "power_type": "gas",
+            "power_type": "essence",
             "consumption": 7.2,
-            "autonomy_km": 650,
+            "autonomy_km": null,
             "horsepower": 192
         },
         "license_plate": "UV-678-WX",
@@ -84,7 +84,7 @@ const vehicles = [
         "model": "Model 3",
         "price": 50000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 14.0,
             "autonomy_km": 491,
             "horsepower": 283
@@ -98,9 +98,9 @@ const vehicles = [
         "model": "Q7",
         "price": 70000,
         "engine": {
-            "power_type": "gas",
+            "power_type": "essence",
             "consumption": 9.1,
-            "autonomy_km": 600,
+            "autonomy_km": null,
             "horsepower": 248
         },
         "license_plate": "CD-234-EF",
@@ -112,7 +112,7 @@ const vehicles = [
         "model": "EV6",
         "price": 45000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 16.5,
             "autonomy_km": 528,
             "horsepower": 229
@@ -126,7 +126,7 @@ const vehicles = [
         "model": "Mustang Mach-E",
         "price": 62000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 18.0,
             "autonomy_km": 490,
             "horsepower": 351
@@ -140,9 +140,9 @@ const vehicles = [
         "model": "208",
         "price": 21000,
         "engine": {
-            "power_type": "gas",
+            "power_type": "diesel",
             "consumption": 5.9,
-            "autonomy_km": 750,
+            "autonomy_km": null,
             "horsepower": 100
         },
         "license_plate": "NO-123-PQ",
@@ -154,9 +154,9 @@ const vehicles = [
         "model": "Golf",
         "price": 25000,
         "engine": {
-            "power_type": "gas",
+            "power_type": "essence",
             "consumption": 6.5,
-            "autonomy_km": 700,
+            "autonomy_km": null,
             "horsepower": 147
         },
         "license_plate": "RS-456-TU",
@@ -168,7 +168,7 @@ const vehicles = [
         "model": "e-Golf",
         "price": 37000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 13.0,
             "autonomy_km": 300,
             "horsepower": 136
@@ -182,9 +182,9 @@ const vehicles = [
         "model": "Megane",
         "price": 24000,
         "engine": {
-            "power_type": "gas",
+            "power_type": "diesel",
             "consumption": 6.3,
-            "autonomy_km": 720,
+            "autonomy_km": null,
             "horsepower": 140
         },
         "license_plate": "ZA-345-BC",
@@ -196,7 +196,7 @@ const vehicles = [
         "model": "Megane E-Tech",
         "price": 36000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 15.8,
             "autonomy_km": 470,
             "horsepower": 218
@@ -210,7 +210,7 @@ const vehicles = [
         "model": "Ioniq 5",
         "price": 45000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 17.0,
             "autonomy_km": 480,
             "horsepower": 225
@@ -224,9 +224,9 @@ const vehicles = [
         "model": "Ioniq",
         "price": 23000,
         "engine": {
-            "power_type": "gas",
+            "power_type": "essence",
             "consumption": 4.7,
-            "autonomy_km": 900,
+            "autonomy_km": null,
             "horsepower": 141
         },
         "license_plate": "LM-234-NO",
@@ -238,7 +238,7 @@ const vehicles = [
         "model": "i3",
         "price": 40000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 14.3,
             "autonomy_km": 300,
             "horsepower": 170
@@ -252,9 +252,9 @@ const vehicles = [
         "model": "3 Series",
         "price": 42000,
         "engine": {
-            "power_type": "gas",
+            "power_type": "essence",
             "consumption": 6.8,
-            "autonomy_km": 750,
+            "autonomy_km": null,
             "horsepower": 184
         },
         "license_plate": "TU-890-VW",
@@ -266,7 +266,7 @@ const vehicles = [
         "model": "Soul EV",
         "price": 32000,
         "engine": {
-            "power_type": "electric",
+            "power_type": "électrique",
             "consumption": 18.0,
             "autonomy_km": 450,
             "horsepower": 201
@@ -278,15 +278,15 @@ const vehicles = [
         "id": 20,
         "brand": "Nissan",
         "model": "Qashqai",
-        "price": 25000,
+        "price": 29000,
         "engine": {
-            "power_type": "gas",
-            "consumption": 6.5,
-            "autonomy_km": 750,
+            "power_type": "essence",
+            "consumption": 5.5,
+            "autonomy_km": null,
             "horsepower": 158
         },
         "license_plate": "BC-456-DE",
-        "car_picture": "https://example.com/images/nissan-qashqai.jpg"
+        "car_picture": "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/Configurator/Qashqai-my24/configurator-webp/QQMC-ICE-Tekna.webp"
     }
 ];
 
