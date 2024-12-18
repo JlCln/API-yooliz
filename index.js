@@ -19,7 +19,8 @@ const vehicles = [
             "autonomy_km": 420,
             "horsepower": 204
         },
-        "license_plate": "AB-123-CD"
+        "license_plate": "AB-123-CD",
+        "car_picture": "https://www.breezcar.com/img-c/pageimg/4932_W750.jpg"
     },
     {
         "id": 2,
@@ -32,7 +33,8 @@ const vehicles = [
             "autonomy_km": 340,
             "horsepower": 136
         },
-        "license_plate": "EF-456-GH"
+        "license_plate": "EF-456-GH",
+        "car_picture": "https://images.caradisiac.com/logos/9/2/5/4/279254/S8-la-nouvelle-peugeot-e-208-electrique-restylee-obligee-de-baisser-ses-prix-204703.jpg"
     },
     {
         "id": 3,
@@ -45,7 +47,8 @@ const vehicles = [
             "autonomy_km": 820,
             "horsepower": 90
         },
-        "license_plate": "IJ-789-KL"
+        "license_plate": "IJ-789-KL",
+        "car_picture": "https://im.qccdn.fr/node/actualite-renault-clio-2019-premieres-impressions-67779/thumbnail_1000x600px-135746.jpg"
     },
     {
         "id": 4,
@@ -58,7 +61,8 @@ const vehicles = [
             "autonomy_km": 484,
             "horsepower": 204
         },
-        "license_plate": "MN-012-OP"
+        "license_plate": "MN-012-OP",
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/c51df517-d2d8-4007-9ad7-85476e25cd40/cbbd7aff-e091-417a-adf5-d25f444c0b9c.png"
     },
     {
         "id": 5,
@@ -71,7 +75,8 @@ const vehicles = [
             "autonomy_km": 650,
             "horsepower": 192
         },
-        "license_plate": "UV-678-WX"
+        "license_plate": "UV-678-WX",
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/f558e0c5-435e-4614-b001-472d9759557d/846677fe-3926-4972-bd05-e532c1f54942.png"
     },
     {
         "id": 6,
@@ -84,7 +89,8 @@ const vehicles = [
             "autonomy_km": 491,
             "horsepower": 283
         },
-        "license_plate": "YZ-901-AB"
+        "license_plate": "YZ-901-AB",
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/fd409174-819b-4600-838d-a50e179d0a7e/4e368649-25dc-4f0d-b4f2-3c6d35bf7cdd.png"
     },
     {
         "id": 7,
@@ -97,7 +103,8 @@ const vehicles = [
             "autonomy_km": 600,
             "horsepower": 248
         },
-        "license_plate": "CD-234-EF"
+        "license_plate": "CD-234-EF",
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/66c4dadf-0789-4891-ab2d-66e7c5915dc4/0fb7c028-65e9-45e9-825b-69ad5845d692.png"
     },
     {
         "id": 8,
@@ -110,7 +117,8 @@ const vehicles = [
             "autonomy_km": 528,
             "horsepower": 229
         },
-        "license_plate": "GH-567-IJ"
+        "license_plate": "GH-567-IJ",
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/bf76186d-39e6-4650-9c31-bd07f18cd6a9/3211e331-bada-4ba3-90a0-49e9ac410103.png"
     },
     {
         "id": 9,
@@ -123,7 +131,8 @@ const vehicles = [
             "autonomy_km": 490,
             "horsepower": 351
         },
-        "license_plate": "KL-890-MN"
+        "license_plate": "KL-890-MN",
+        "car_picture": "https://example.com/images/ford-mustang-mach-e.jpg"
     },
     {
         "id": 10,
@@ -136,7 +145,8 @@ const vehicles = [
             "autonomy_km": 750,
             "horsepower": 100
         },
-        "license_plate": "NO-123-PQ"
+        "license_plate": "NO-123-PQ",
+        "car_picture": "https://example.com/images/peugeot-208.jpg"
     },
     {
         "id": 11,
@@ -149,7 +159,8 @@ const vehicles = [
             "autonomy_km": 700,
             "horsepower": 147
         },
-        "license_plate": "RS-456-TU"
+        "license_plate": "RS-456-TU",
+        "car_picture": "https://example.com/images/volkswagen-golf.jpg"
     },
     {
         "id": 12,
@@ -162,7 +173,8 @@ const vehicles = [
             "autonomy_km": 300,
             "horsepower": 136
         },
-        "license_plate": "VW-789-XY"
+        "license_plate": "VW-789-XY",
+        "car_picture": "https://example.com/images/volkswagen-e-golf.jpg"
     },
     {
         "id": 13,
@@ -175,7 +187,8 @@ const vehicles = [
             "autonomy_km": 720,
             "horsepower": 140
         },
-        "license_plate": "ZA-345-BC"
+        "license_plate": "ZA-345-BC",
+        "car_picture": "https://example.com/images/renault-megane.jpg"
     },
     {
         "id": 14,
@@ -188,7 +201,8 @@ const vehicles = [
             "autonomy_km": 470,
             "horsepower": 218
         },
-        "license_plate": "DE-678-FG"
+        "license_plate": "DE-678-FG",
+        "car_picture": "https://example.com/images/renault-megane-e-tech.jpg"
     },
     {
         "id": 15,
@@ -201,7 +215,8 @@ const vehicles = [
             "autonomy_km": 480,
             "horsepower": 225
         },
-        "license_plate": "HI-901-JK"
+        "license_plate": "HI-901-JK",
+        "car_picture": "https://example.com/images/hyundai-ioniq-5.jpg"
     },
     {
         "id": 16,
@@ -214,7 +229,8 @@ const vehicles = [
             "autonomy_km": 900,
             "horsepower": 141
         },
-        "license_plate": "LM-234-NO"
+        "license_plate": "LM-234-NO",
+        "car_picture": "https://example.com/images/hyundai-ioniq.jpg"
     },
     {
         "id": 17,
@@ -227,7 +243,8 @@ const vehicles = [
             "autonomy_km": 300,
             "horsepower": 170
         },
-        "license_plate": "PQ-567-RS"
+        "license_plate": "PQ-567-RS",
+        "car_picture": "https://example.com/images/bmw-i3.jpg"
     },
     {
         "id": 18,
@@ -240,7 +257,8 @@ const vehicles = [
             "autonomy_km": 750,
             "horsepower": 184
         },
-        "license_plate": "TU-890-VW"
+        "license_plate": "TU-890-VW",
+        "car_picture": "https://example.com/images/bmw-3-series.jpg"
     },
     {
         "id": 19,
@@ -253,7 +271,8 @@ const vehicles = [
             "autonomy_km": 450,
             "horsepower": 201
         },
-        "license_plate": "XY-123-ZA"
+        "license_plate": "XY-123-ZA",
+        "car_picture": "https://example.com/images/kia-soul-ev.jpg"
     },
     {
         "id": 20,
@@ -266,7 +285,8 @@ const vehicles = [
             "autonomy_km": 750,
             "horsepower": 158
         },
-        "license_plate": "BC-456-DE"
+        "license_plate": "BC-456-DE",
+        "car_picture": "https://example.com/images/nissan-qashqai.jpg"
     }
 ];
 
