@@ -287,6 +287,90 @@ const vehicles = [
         },
         "license_plate": "BC-456-DE",
         "car_picture": "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/Configurator/Qashqai-my24/configurator-webp/QQMC-ICE-Tekna.webp"
+    },
+    {
+        "id": 21,
+        "brand": "Renault",
+        "model": "Clio E-Tech",
+        "price": 35000,
+        "engine": {
+            "power_type": "électrique",
+            "consumption": 16.0,
+            "autonomy_km": 385,
+            "horsepower": 136
+        },
+        "license_plate": "FG-789-HI",
+        "car_picture": "https://staticeu-h2.izmocars.com/toolkit/commonassets/2024/24renault/24renaultcliohevtechnohb5rb/24renaultcliohevtechnohb5rb_pixGallery/_gallerypix/renault_cliohevtechnohb5rb_concept.jpg"
+    },
+    {
+        "id": 22,
+        "brand": "Audi",
+        "model": "Q8 e-tron",
+        "price": 86000,
+        "engine": {
+            "power_type": "électrique",
+            "consumption": 19.5,
+            "autonomy_km": 412,
+            "horsepower": 408
+        },
+        "license_plate": "JK-012-LM",
+        "car_picture": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/8284d142-57ca-4f86-94bb-7bc29716ec37/ef69fa59-3bb9-4b7e-8528-f1d932a9f8c2.png"
+    },
+    {
+        "id": 23,
+        "brand": "Nissan",
+        "model": "Ariya",
+        "price": 47000,
+        "engine": {
+            "power_type": "électrique",
+            "consumption": 16.8,
+            "autonomy_km": 403,
+            "horsepower": 242
+        },
+        "license_plate": "NO-345-PQ",
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/c91ea2ea-e512-4da6-9991-a85453162350/c877bd3a-8174-48f1-b675-8a6076835fae.png"
+    },
+    {
+        "id": 24,
+        "brand": "Tesla",
+        "model": "Model S Hybride",
+        "price": 95000,
+        "engine": {
+            "power_type": "essence",
+            "consumption": 2.1,
+            "autonomy_km": null,
+            "horsepower": 670
+        },
+        "license_plate": "RS-789-TU",
+        "car_picture": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/b0a52b41-0262-44c8-b790-c45233f8de84/f7aafe4d-45dd-4f4e-a63c-79a06747b1e2.png"
+    },
+    {
+        "id": 25,
+        "brand": "Kia",
+        "model": "Sportage",
+        "price": 32000,
+        "engine": {
+            "power_type": "diesel",
+            "consumption": 5.2,
+            "autonomy_km": null,
+            "horsepower": 136
+        },
+        "license_plate": "VW-901-XY",
+        "car_picture": "https://platform.cstatic-images.com/in/v2/stock_photos/48e0ce59-1e9e-4719-b149-8778d4a27bfe/10fa2b1e-613e-4a96-b5fd-473dfd56f2b9.png"
+    },
+    {
+        "id": 26,
+        "brand": "Ford",
+        "model": "Puma",
+        "price": 27000,
+        "engine": {
+            "power_type": "essence",
+            "consumption": 5.4,
+            "autonomy_km": null,
+            "horsepower": 125
+        },
+        "license_plate": "ZA-234-BC",
+        "car_picture": "https://www.gpas-cache.ford.com/guid/1be551bf-1096-36fc-a956-f95dc22df45e.png"
     }
 ];
 
