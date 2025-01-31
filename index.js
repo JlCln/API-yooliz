@@ -146,7 +146,7 @@ const vehicles = [
             "horsepower": 100
         },
         "license_plate": "NO-123-PQ",
-        "car_picture": "https://www.europcar-atlantique.fr/upload/images/Categories/Citadine/Eco5Portes.jpg?width=750"
+        "car_picture": "https://www.largus.fr/images/images/peugeot-208-active-led.jpg"
     },
     {
         "id": 11,
@@ -371,6 +371,90 @@ const vehicles = [
         },
         "license_plate": "ZA-234-BC",
         "car_picture": "https://www.gpas-cache.ford.com/guid/1be551bf-1096-36fc-a956-f95dc22df45e.png"
+    },
+    {
+        "id": 27,
+        "brand": "Mercedes",
+        "model": "C-Class",
+        "price": 48000,
+        "engine": {
+            "power_type": "essence",
+            "consumption": 6.9,
+            "autonomy_km": null,
+            "horsepower": 204
+        },
+        "license_plate": "ME-567-CD",
+        "car_picture": "https://www.mercedes-benz.fr/passengercars/mercedes-benz-cars/models/c-class/saloon-w206/_jcr_content/image.MQ6.2.2x.20210225121821.png"
+    },
+    {
+        "id": 28,
+        "brand": "Mercedes",
+        "model": "EQC",
+        "price": 76000,
+        "engine": {
+            "power_type": "électrique",
+            "consumption": 21.5,
+            "autonomy_km": 417,
+            "horsepower": 408
+        },
+        "license_plate": "ME-789-EF",
+        "car_picture": "https://www.mercedes-benz.fr/passengercars/mercedes-benz-cars/models/eqc/specifications/_jcr_content/image.MQ6.2.2x.20190515084401.png"
+    },
+    {
+        "id": 29,
+        "brand": "Toyota",
+        "model": "RAV4",
+        "price": 38000,
+        "engine": {
+            "power_type": "essence",
+            "consumption": 6.0,
+            "autonomy_km": null,
+            "horsepower": 218
+        },
+        "license_plate": "TO-123-GH",
+        "car_picture": "https://toyota.scene7.com/is/image/toyota/RAV4-Platinum_MY23_001?wid=2000&fmt=jpg"
+    },
+    {
+        "id": 30,
+        "brand": "Toyota",
+        "model": "bZ4X",
+        "price": 49000,
+        "engine": {
+            "power_type": "électrique",
+            "consumption": 16.8,
+            "autonomy_km": 460,
+            "horsepower": 217
+        },
+        "license_plate": "TO-456-IJ",
+        "car_picture": "https://toyota.scene7.com/is/image/toyota/BZ4X-XLE_MY23_001?wid=2000&fmt=jpg"
+    },
+    {
+        "id": 31,
+        "brand": "Volvo",
+        "model": "XC40",
+        "price": 41000,
+        "engine": {
+            "power_type": "essence",
+            "consumption": 7.2,
+            "autonomy_km": null,
+            "horsepower": 163
+        },
+        "license_plate": "VO-789-KL",
+        "car_picture": "https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/my24/car-images/xc40-gas-my24-responsive.jpg"
+    },
+    {
+        "id": 32,
+        "brand": "Volvo",
+        "model": "XC40 Recharge",
+        "price": 53000,
+        "engine": {
+            "power_type": "électrique",
+            "consumption": 18.7,
+            "autonomy_km": 418,
+            "horsepower": 408
+        },
+        "license_plate": "VO-012-MN",
+        "car_picture": "https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/my24/car-images/xc40-bev-my24-responsive.jpg"
     }
 ];
 
