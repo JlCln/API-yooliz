@@ -10,17 +10,18 @@ app.use(express.json());
 const vehicles = [
   {
     id: 1,
-    brand: "Volkswagen",
-    model: "ID.3",
-    price: 43000,
+    brand: "Peugeot",
+    model: "208",
+    price: 21000,
     engine: {
-      power_type: "électrique",
-      consumption: 15.5,
-      autonomy_km: 420,
-      horsepower: 204,
+      power_type: "diesel",
+      consumption: 5.9,
+      autonomy_km: null,
+      horsepower: 100,
     },
     license_plate: "AB-123-CD",
-    car_picture: "https://www.breezcar.com/img-c/pageimg/4932_W750.jpg",
+    car_picture:
+      "https://www.largus.fr/images/images/peugeot-208-active-led.jpg",
   },
   {
     id: 2,
@@ -129,18 +130,17 @@ const vehicles = [
   },
   {
     id: 9,
-    brand: "Peugeot",
-    model: "208",
-    price: 21000,
+    brand: "Volkswagen",
+    model: "ID.3",
+    price: 43000,
     engine: {
-      power_type: "diesel",
-      consumption: 5.9,
-      autonomy_km: null,
-      horsepower: 100,
+      power_type: "électrique",
+      consumption: 15.5,
+      autonomy_km: 420,
+      horsepower: 204,
     },
     license_plate: "NO-123-PQ",
-    car_picture:
-      "https://www.largus.fr/images/images/peugeot-208-active-led.jpg",
+    car_picture: "https://www.breezcar.com/img-c/pageimg/4932_W750.jpg",
   },
   {
     id: 10,
@@ -380,7 +380,7 @@ const vehicles = [
     },
     license_plate: "ME-567-CD",
     car_picture:
-      "https://www.mercedes-benz.fr/passengercars/mercedes-benz-cars/models/c-class/saloon-w206/_jcr_content/image.MQ6.2.2x.20210225121821.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/b53bd6cd-c4db-40cd-94e3-cd8fb2d09c5a/fecc5852-a9f8-4bbd-bd7f-1ccf2d6fba51.png",
   },
   {
     id: 26,
@@ -395,7 +395,7 @@ const vehicles = [
     },
     license_plate: "ME-789-EF",
     car_picture:
-      "https://www.mercedes-benz.fr/passengercars/mercedes-benz-cars/models/eqc/specifications/_jcr_content/image.MQ6.2.2x.20190515084401.png",
+      "https://images.ctfassets.net/g9q6qxi3m2zj/3DnGrNqYk7UF12XLqfLijz/1db28d6741fe0a3d417a94f2f1419568/exterior.png",
   },
   {
     id: 27,
@@ -410,7 +410,7 @@ const vehicles = [
     },
     license_plate: "TO-123-GH",
     car_picture:
-      "https://toyota.scene7.com/is/image/toyota/RAV4-Platinum_MY23_001?wid=2000&fmt=jpg",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/c2f162c8-697b-49c1-a0e6-fbaf1d9c2230/ce0d7e5c-204b-49ad-bfb3-fe1b9bcefab6.png",
   },
   {
     id: 28,
@@ -425,7 +425,7 @@ const vehicles = [
     },
     license_plate: "TO-456-IJ",
     car_picture:
-      "https://toyota.scene7.com/is/image/toyota/BZ4X-XLE_MY23_001?wid=2000&fmt=jpg",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/dfa641d6-f795-40b2-8d7f-ca4275882de8/a3525337-da8d-48f4-8907-b5c35a09cd00.png",
   },
   {
     id: 29,
@@ -440,7 +440,7 @@ const vehicles = [
     },
     license_plate: "VO-789-KL",
     car_picture:
-      "https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/my24/car-images/xc40-gas-my24-responsive.jpg",
+      "https://www.caroom.fr/_next/image?url=https%3A%2F%2Fs3.caroom.fr%2Fcache%2Fminiatures_600x350%2Fmodeles%2Fvolvo-xc40-1692627555.png&w=640&q=50",
   },
   {
     id: 30,
@@ -455,7 +455,7 @@ const vehicles = [
     },
     license_plate: "VO-012-MN",
     car_picture:
-      "https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/my24/car-images/xc40-bev-my24-responsive.jpg",
+      "https://chargeguru.com/fr-be/wp-content/uploads/sites/7/2019/11/volvo-xc40-recharge.png",
   },
   {
     id: 31,
@@ -470,7 +470,7 @@ const vehicles = [
     },
     license_plate: "BM-123-XY",
     car_picture:
-      "https://www.bmw.fr/content/dam/bmw/common/all-models/x-series/x3/2021/navigation/BMW-X3-Stage-Desktop.png",
+      "https://carimages.d2cmedia.ca/newcarimages/fr/cb679f9da97511b/BMW/X3/2025/2100/461424/White/front45.png",
   },
   {
     id: 32,
@@ -485,7 +485,7 @@ const vehicles = [
     },
     license_plate: "BM-124-XY",
     car_picture:
-      "https://www.bmw.fr/content/dam/bmw/common/all-models/i-series/ix3/2021/navigation/bmw-ix3-stage-desktop.png",
+      "https://staticeu-h2.izmocars.com/toolkit/commonassets/2024/24bmw/24bmwix3evinspiringsu3fbfr/24bmwix3evinspiringsu3fbfr_pixGallery/_gallerypix/bmw_ix3evinspiringsu3fbfr_concept.jpg",
   },
   {
     id: 33,
@@ -500,7 +500,7 @@ const vehicles = [
     },
     license_plate: "PE-125-XY",
     car_picture:
-      "https://www.peugeot.fr/content/dam/peugeot/master/b2c/our-range/3008/phase-2/colors/3008-blue-magnetic.png",
+      "https://www.wizicar.com/wp-content/uploads/2020/10/peugeot-3008.jpg",
   },
   {
     id: 34,
@@ -515,7 +515,7 @@ const vehicles = [
     },
     license_plate: "PE-126-XY",
     car_picture:
-      "https://www.peugeot.fr/content/dam/peugeot/master/b2c/our-range/new-3008/electric/design/new-e-3008-design-cover.png",
+      "https://www.peugeot.fr/content/dam/peugeot/master/b2c/our-range/showroom/3008/2023-new-e-3008-/3008-white-label/e-3008-white-label-/NEW_TRIM_E_3008_ALLURE.png?imwidth=768",
   },
   {
     id: 35,
@@ -530,7 +530,7 @@ const vehicles = [
     },
     license_plate: "RE-127-XY",
     car_picture:
-      "https://www.renault.fr/vehicles/passenger/captur/phase-2/_jcr_content/root/responsivegrid/stagedescription/stagedescriptionimage.nimg.png/renault-captur-phase2-overview.png",
+      "https://www.autobhl.com/photos/full/captur%20techno%20es%20ext%20avt(1).jpg",
   },
   {
     id: 36,
@@ -545,7 +545,7 @@ const vehicles = [
     },
     license_plate: "RE-128-XY",
     car_picture:
-      "https://www.renault.fr/vehicles/passenger/scenic-e-tech-100-electric/_jcr_content/root/responsivegrid/stagedescription/stagedescriptionimage.nimg.png/renault-scenic-eteh-overview.png",
+      "https://cdn.motor1.com/images/mgl/QeP1N9/s1/4x3/foto---renault-scenic-e-tech-electric.webp",
   },
 ];
 
